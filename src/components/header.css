@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: #66d9ef;
+    width: 80vw;
+    justify-content: space-around;
+    background-color: hsla(55, 11%, 22%, .25);
+    border: 1px solid hsl(50, 2%, 48%);
+    border-radius: .15em;
+    padding: 2vh 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    letter-spacing: .1rem;
+    min-width: 350px;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* margin-top: 2vh; */
+    /* margin-bottom: 0;
+    margin-right: 10vw; */
+    /* min-width: 350px; */
+  }
+  
+  .icon {
+    min-width: 36px;
+    margin-left: 18px;
+    /* height: 90%; */
+    border-radius: .2em;
+  }
+  
+  .linkedin-icon {
+    fill: #AE81FF;
+  }
+  
+  .github-icon {
+    fill: #E6DB74;
+  }
+  
+  .twitter-icon {
+    fill: #FD971F;
+  }
+
+  @media screen and (min-width: 700px){
+    .header {
+        flex-direction: row;
+    }
+}

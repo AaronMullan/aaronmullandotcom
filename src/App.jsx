@@ -1,11 +1,12 @@
 import React from 'react';
-import Hero from './components/Hero';
+// import Hero from './components/Hero';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
   return (
-    <div style={{ color: 'red' }} className="App">
-      <Hero />
+    <div className="App">
+      <Header />
     </div>
   );
 }
