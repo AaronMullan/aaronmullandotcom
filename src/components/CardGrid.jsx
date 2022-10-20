@@ -6,7 +6,7 @@ export default function CardGrid() {
   return (
     <div id="grid">
       {cardData.map(({
-        title, text, image, link, linkText,
+        title, text, image, link, linkText, secondaryLink, secondaryLinkText,
       }) => (
         <div className="card">
           <img src={image} alt="" />
@@ -20,10 +20,18 @@ export default function CardGrid() {
                 {linkText || 'site'}
               </button>
             </a>
+            {secondaryLink
+              ? (
+                <a href={link}>
+                  <button type="button" className="button secondary-button">
+                    {secondaryLinkText || 'code'}
+                  </button>
+                </a>
+              )
+              : null}
           </div>
         </div>
       ))}
-      );
     </div>
   );
 }

@@ -1,12 +1,12 @@
 #grid {
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 }
 
 .card {
     border: 1px solid hsl(50, 2%, 48%);
     border-radius: .25rem;
-    max-width: 400px;
+    max-width: 769px;
     margin: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -15,23 +15,29 @@ grid-template-columns: 1fr 1fr;
 
 .card h3 {
     color: #a6e22e;
+    margin: 0px 0px 12px;
 }
 
 .card-body {
-    background-color: #272822;
+    background-color: #3e3d32;
     color: #f8f8f2;
+    height: 100%;
+    padding: 1.25rem;
 }
 
 .card-body p {
     text-align: center;
+    margin: 0;
 }
 
 .card-footer {
-    background-color: #3e3d32;
+    background-color: #49483e;
 }
 
 img {
     width: 100%;
+
+    /* max-width: 350px; */
     border-radius: .25rem .25rem 0 0 ;
 }
 
@@ -81,7 +87,18 @@ button:active {
     color: #fff
 }
 
-  @media screen and (min-width: 700px){
+.secondary-button {
+    background-color: #66d9ef;
+    border-color: #66d9ef;
+    color: #272822
+}
+
+  @media screen and (min-width: 769px){
+    #grid {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (min-width: 1024px){
     #grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
