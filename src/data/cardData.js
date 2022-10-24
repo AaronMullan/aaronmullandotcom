@@ -4,11 +4,21 @@ import html from '../assets/html.png';
 import opensource from '../assets/opensource.png';
 import javascript from '../assets/javascript.png';
 import jest from '../assets/jest.png';
-import gatsby from '../assets/gatsby.png';
+import audio from '../assets/audio.png';
 import sprinklr from '../assets/sprinklr.png';
 import thisOne from '../assets/this.png';
+import table from '../assets/table.png';
 
 const cardData = [
+  {
+    title: 'Tables',
+    text:
+      'Responsive React Table Component with semantically correct html and many options.',
+    link: 'https://table-showcase.netlify.app/',
+    image: table,
+    linkText: 'site',
+    secondaryLink: 'https://github.com/AaronMullan/tables',
+  },
   {
     title: 'Sprinklr',
     text:
@@ -20,13 +30,13 @@ const cardData = [
   {
     title: 'Audio',
     text: 'Personal Site made with Gatsby/Contentful/GraphQL.',
-    image: gatsby,
+    image: audio,
     link: 'https://aaron-mullan-audio.netlify.app/',
     secondaryLink: 'https://github.com/AaronMullan/aaronmullanaudio',
   },
   {
     title: 'This Site',
-    text: 'Personal Site made with React Bootstrap.',
+    text: 'Personal Site built with React Bootstrap, then re-built without Bootstrap.',
     image: thisOne,
     secondaryLink: 'https://github.com/AaronMullan/portfolio',
     secondaryLinkText: 'code',

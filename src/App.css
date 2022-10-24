@@ -2,18 +2,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color:#272822 ;
+}
+
 .App {
   text-align: center;
   justify-content: center;
   background-color:#272822 ;
   font-family: Roboto;
   min-width: 320px;
+  margin: 1vh 3vw
 }
 
-#main-container {
-  /* display: flex; */
-
-}
 h1 {
   font-family: 'Space Mono', monospace;
   font-weight: 700;
@@ -30,3 +31,12 @@ h3 {
 p{
   font-family: Roboto;
 }
+  @media screen and (min-width: 1024px){
+    #main-container {
+      /* display: flex;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: start;
+    }
+  }

@@ -4,7 +4,7 @@ grid-template-columns: 1fr;
 }
 
 .card {
-    border: 1px solid hsl(50, 2%, 48%);
+    border: 1px solid rgb(136, 132, 111);
     border-radius: .25rem;
     max-width: 769px;
     margin: 40px 20px;
@@ -23,6 +23,10 @@ grid-template-columns: 1fr;
     color: #f8f8f2;
     height: 100%;
     padding: 1.25rem;
+    /* height: 40% */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
 }
 
 .card-body p {
@@ -98,8 +102,4 @@ button:active {
         grid-template-columns: 1fr 1fr;
     }
   }
-  @media screen and (min-width: 1024px){
-    #grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
+
