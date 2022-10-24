@@ -33,8 +33,6 @@ p{
 }
   @media screen and (min-width: 1024px){
     #main-container {
-      /* display: flex;
-    align-items: flex-start; */
     display: grid;
     grid-template-columns: 2fr 3fr;
     align-items: start;

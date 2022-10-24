@@ -4,19 +4,6 @@ import { ReactComponent as Github } from '../assets/github.svg';
 import { ReactComponent as LinkedIn } from '../assets/linkedin.svg';
 import './header.css';
 
-// export default function Header() {
-//   return (
-//     <div style={{
-//       display: 'flex', justifyContent: 'center', paddingTop: '20px', paddingBottom: '20px',
-//     }}
-//     >
-//       <div style={headerStyles}>
-//         <div><h1>Aaron Mullan: Developer</h1></div>
-
-//       </div>
-//     </div>
-//   );
-// }
 export default function Header() {
   return (
     <div className="container">

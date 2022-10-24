@@ -1,36 +1,24 @@
 import React from 'react';
 import cardData from '../data/cardData';
+import Card from './Card';
 import './cardGrid.css';
 
 export default function CardGrid() {
   return (
     <div id="grid">
       {cardData.map(({
-        title, text, image, link, linkText, secondaryLink, secondaryLinkText,
+        title, text, image, link, linkText, secondaryLink, secondaryLinkText, i,
       }) => (
-        <div className="card">
-          <img src={image} alt="" />
-          <div className="card-body">
-            <h3>{title}</h3>
-            <p>{text}</p>
-          </div>
-          <div className="card-footer">
-            <a href={link} target="blank" rel="noopener noreferrer">
-              <button type="button" className="button primary-button">
-                {linkText || 'site'}
-              </button>
-            </a>
-            {secondaryLink
-              ? (
-                <a href={link} target="blank" rel="noopener noreferrer">
-                  <button type="button" className="button secondary-button">
-                    {secondaryLinkText || 'code'}
-                  </button>
-                </a>
-              )
-              : null}
-          </div>
-        </div>
+        <Card
+          key={title + i}
+          title={title}
+          text={text}
+          image={image}
+          link={link}
+          linkText={linkText}
+          secondaryLink={secondaryLink}
+          secondaryLinkText={secondaryLinkText}
+        />
       ))}
     </div>
   );

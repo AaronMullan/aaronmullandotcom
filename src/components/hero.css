@@ -1,6 +1,4 @@
 #container {
-    /* max-width: 500px; */
-    /* padding: 2vh 1vh; */
     padding-top: 10px;
     display: flex;
     align-items: center;
@@ -10,8 +8,6 @@
 #hero {
     display: flex;
     justify-content: center;
-    /* padding-bottom: 20px;
-    padding-bottom: 20px; */
     margin: 0 20px;
     background-color: hsla(55, 11%, 22%, .25);
     border: 1px solid hsl(50, 2%, 48%);
