@@ -16,7 +16,7 @@ export default function Hero() {
 
             {' '}
             <span className="hello">Hello, World!  </span>
-            I am a Full Stack Software Developer currently focused on the Front End. Most recently I’ve been working in a tech stack of Gatsby / React / GraphQL / Typescript / Theme UI. Professionally I’ve worked with version control via Github, project management using Jira, continuous integration with Travis, and used Agile scrum Methods.
+            I am a Full Stack Software Developer currently focused on the Front End. Most recently I’ve been working in a tech stack of Gatsby / React / GraphQL / Typescript / Theme UI. Professionally I’ve worked with version control via Github, project management using Jira, continuous integration with Travis, and used Agile/Scrum Methods.
             <br />
             <br />
             Never content with my current knowledge, in addition to the technologies mentioned above I’ve built projects with Python/Django and PHP/Laravel, Bootstrap, Material UI, Styled-Components, and Tailwind, MongoDB, and SQL.  I’ve done testing with Jest and Supertest, and project management using Trello, Notion, and Github Issues.

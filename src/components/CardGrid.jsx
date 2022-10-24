@@ -15,14 +15,14 @@ export default function CardGrid() {
             <p>{text}</p>
           </div>
           <div className="card-footer">
-            <a href={link}>
+            <a href={link} target="blank" rel="noopener noreferrer">
               <button type="button" className="button primary-button">
                 {linkText || 'site'}
               </button>
             </a>
             {secondaryLink
               ? (
-                <a href={link}>
+                <a href={link} target="blank" rel="noopener noreferrer">
                   <button type="button" className="button secondary-button">
                     {secondaryLinkText || 'code'}
                   </button>
