@@ -38,7 +38,7 @@ const cardData = [
     title: 'This Site',
     text: 'Personal Site built with React Bootstrap, then re-built without Bootstrap.',
     image: thisOne,
-    secondaryLink: 'https://github.com/AaronMullan/portfolio',
+    secondaryLink: 'https://github.com/AaronMullan/aaronmullandotcom',
     secondaryLinkText: 'code',
   },
   {
