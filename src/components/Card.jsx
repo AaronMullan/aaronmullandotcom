@@ -21,7 +21,7 @@ export default function Card({
         </a>
         {secondaryLink
           ? (
-            <a href={link} target="blank" rel="noopener noreferrer">
+            <a href={secondaryLink} target="blank" rel="noopener noreferrer">
               <button type="button" className="button secondary-button">
                 {secondaryLinkText || 'code'}
               </button>
