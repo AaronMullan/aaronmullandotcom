@@ -8,8 +8,18 @@ import audio from '../assets/audio.png';
 import sprinklr from '../assets/sprinklr.png';
 import thisOne from '../assets/this.png';
 import table from '../assets/table.png';
+import diskard from '../assets/diskard.png';
 
 const cardData = [
+  {
+    title: 'Diskârd',
+    text:
+      'Site for boutique garbage collection service.',
+    link: 'https://diskard.vercel.app//',
+    image: diskard,
+    linkText: 'site',
+    secondaryLink: 'https://github.com/AaronMullan/diskard',
+  },
   {
     title: 'Tables',
     text:
