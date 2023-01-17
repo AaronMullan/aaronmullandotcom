@@ -14,7 +14,7 @@ const cardData = [
   {
     title: 'Diskârd',
     text:
-      'Site for boutique garbage collection service.',
+      'Site for boutique garbage collection service built with React / Next.js.',
     link: 'https://diskard.vercel.app//',
     image: diskard,
     linkText: 'site',
