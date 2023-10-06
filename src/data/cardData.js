@@ -9,21 +9,28 @@ import sprinklr from '../assets/sprinklr.png';
 import thisOne from '../assets/this.png';
 import table from '../assets/table.png';
 import diskard from '../assets/diskard.png';
+import gitInsight from '../assets/gitinsight.png';
 
 const cardData = [
   {
+    title: 'Git Insight',
+    text: 'Site demonstrating use of Github API via GraphQL to display user data.',
+    link: 'https://github-viewer-nine.vercel.app/',
+    image: gitInsight,
+    linkText: 'site',
+    secondaryLink: 'https://github.com/AaronMullan/github-viewer',
+  },
+  {
     title: 'Diskârd',
-    text:
-      'Site for boutique garbage collection service built with React / Next.js.',
-    link: 'https://diskard.vercel.app//',
+    text: 'Site for boutique garbage collection service built with React / Next.js.',
+    link: 'https://diskard.vercel.app/',
     image: diskard,
     linkText: 'site',
     secondaryLink: 'https://github.com/AaronMullan/diskard',
   },
   {
     title: 'Tables',
-    text:
-      'Responsive React Table Component with semantically correct html and many options.',
+    text: 'Responsive React Table Component with semantically correct html and many options.',
     link: 'https://table-showcase.netlify.app/',
     image: table,
     linkText: 'site',
@@ -31,8 +38,7 @@ const cardData = [
   },
   {
     title: 'Sprinklr',
-    text:
-      'One of 5 developers who built features for this marketing website using Typescript / GraphQL.',
+    text: 'One of 5 developers who built features for this marketing website using Typescript / GraphQL.',
     link: 'https://www.sprinklr.com/',
     image: sprinklr,
     linkText: 'site',
@@ -61,8 +67,7 @@ const cardData = [
   },
   {
     title: 'Covid Tracking Project',
-    text:
-      'Contributor to this project using Gatsby, D3 for data visualization for Covid tracking.',
+    text: 'Contributor to this project using Gatsby, D3 for data visualization for Covid tracking.',
     link: 'https://covidtracking.com/',
     image: opensource,
     secondaryLink: 'https://github.com/COVID19Tracking/website',
@@ -77,8 +82,7 @@ const cardData = [
   },
   {
     title: 'Whatever Synth',
-    text:
-      'Collaborative use of Web Audio API to make a browser-based synthesizer.',
+    text: 'Collaborative use of Web Audio API to make a browser-based synthesizer.',
     link: 'https://whateversynth.netlify.app/',
     image: javascript,
     secondaryLink: 'https://github.com/whateverSynth/whateverSynth-frontend',
@@ -95,8 +99,7 @@ const cardData = [
     title: 'Jest',
     text: 'Jest coverage on database routes and models.',
     image: jest,
-    link:
-      'https://github.com/AaronMullan/record-database/tree/master/lib/models',
+    link: 'https://github.com/AaronMullan/record-database/tree/master/lib/models',
     linkText: 'models',
     secondaryLink:
       'https://github.com/AaronMullan/record-database/tree/master/__tests__',
