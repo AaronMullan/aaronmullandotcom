@@ -1,59 +1,54 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
-    color: #66d9ef;
-    width: 100%;
-    padding: 1vh;
-    margin: 0 20px;
-    justify-content: space-around;
-    background-color: hsla(55, 11%, 22%, .25);
-    border: 1px solid hsl(50, 2%, 48%);
-    border-radius: .15em;
-    /* padding: 2vh 1vh; */
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    letter-spacing: .1rem;
-    min-width: 250px;
-  }
+  display: flex;
+  flex-direction: column;
+  color: #66d9ef;
+  width: 100%;
+  padding: 1vh;
+  margin: 0 20px;
+  justify-content: space-around;
+  background-color: hsla(55, 11%, 22%, 0.25);
+  border: 1px solid hsl(50, 2%, 48%);
+  border-radius: 0.15em;
+  /* padding: 2vh 1vh; */
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  letter-spacing: 0.1rem;
+  min-width: 250px;
+}
 
-  .icon-container {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    /* margin-top: 2vh; */
-    /* margin-bottom: 0; */
-    margin-right: 30px;
-    /* min-width: 350px; */
-  }
-  
-  .icon {
-    min-width: 36px;
-    margin-left: 18px;
-    /* height: 90%; */
-  }
-  
-  .linkedin-icon {
-    fill: #AE81FF;
-    border-radius: .2em;
-  }
-  
-  .github-icon {
-    fill: #E6DB74;
-    border-radius: .2em;
-  }
-  
-  .twitter-icon {
-    fill: #FD971F;
-    border-radius: .2em;
-  }
+.icon-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  /* margin-top: 2vh; */
+  /* margin-bottom: 0; */
+  margin-right: 30px;
+  /* min-width: 350px; */
+}
 
-  /* @media screen and (min-width: 700px){
+.icon {
+  min-width: 36px;
+  margin-left: 18px;
+  /* height: 90%; */
+}
+
+.linkedin-icon {
+  fill: #ae81ff;
+  border-radius: 0.2em;
+}
+
+.github-icon {
+  fill: #e6db74;
+  border-radius: 0.2em;
+}
+
+/* @media screen and (min-width: 700px){
     .header {
         flex-direction: row;
     } */
